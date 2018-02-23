@@ -29,3 +29,49 @@ img {
 #projectby {
   margin: auto;
 }
+
+.guess {
+  display: inline;
+  font-size: 55px;
+  border: 2px solid black;
+  padding: 0 20px;
+  border-radius: 15px
+}
+
+#players-input {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  font-size: 70px
+}
+
+#submit-btn {
+   border-radius: 50%;
+   width: 80px;
+   height: 65px;
+   position: absolute;
+   top: 110px;
+   left: 110px
+}
+
+#input-parent {
+  width: 160px;
+  margin: 5% auto 50px;
+  position: relative
+}
+
+body {
+  background: url('leon.jpg');
+  background-size: 100px, 200px;
+  background-repeat: round round;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(256, 256, 256, 0.65)
+}
+
+#title {
+  margin: 10px
+}
