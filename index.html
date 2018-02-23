@@ -5,19 +5,25 @@
   <title>Guessing Game</title>
 
   <link rel='stylesheet' type='text/css' href='style.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
-  <div id='app'>
+  <div id='app' class='center container'>
     <div id='headers'>
       <h1 id='title'>Welcome to the Guessing Game!</h1>
       <h3 id='subtitle'>Guess a number between 1 - 100</h3>
+      <br />
     </div>
 
     <div id='main'>
       <div id='input-parent'>
-        <input placeholder='#' minlength='1' maxlength='3' autofocus=autofocus></input>
-        <button>Submit</button>
+        <input id='players-input' class='center' placeholder='#' minlength='1' maxlength='3' autofocus=autofocus></input>
+      </div>
+      <div>
+        <br />
+        <button id='submit-btn' class='btn btn-primary'>Submit</button>
       </div>
 
       <div id='guesses'>
@@ -31,23 +37,23 @@
       </div>
 
       <div id="reset-hint-btns">
-        <button>Reset</button>
-        <button>Hint</button>
+        <button id='reset-btn' class='btn btn-warning'>Reset</button>
+        <button id='hint-btn' class='btn btn-success'>Hint</button>
       </div>
     </div>
   </div>
 
-  <div id='footer'>
-    <div>
-      <div class=''>
+  <div id='footer' class='center'>
+    <div class='row'>
+      <div class='col-sm-4'>
         <img src='fa-logo.png'></img>
       </div>
 
-      <div class=''>
-        <h4>Project by Samuel Yun</h4>
+      <div id='projectby' class='col-sm-4'>
+        <h4>Project by <b>Samuel Yun</b></h4>
       </div>
 
-      <div class=''>
+      <div class='col-sm-4'>
         <img src='fa-logo.png'></img>
       </div>
     </div>

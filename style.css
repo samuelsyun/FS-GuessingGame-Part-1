@@ -21,3 +21,11 @@ img {
   bottom: 0;
 }
 
+#input-parent {
+  width: 160px;
+  margin: 0 auto 0 auto
+}
+
+#projectby {
+  margin: auto;
+}
