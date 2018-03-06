@@ -1,4 +1,4 @@
-#Workshop from Fullstack Code of Academy
+# Workshop from Fullstack Code of Academy
 
-Guessing Game Part 1
+## Guessing Game Part 1
 
